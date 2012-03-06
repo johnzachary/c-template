@@ -8,7 +8,7 @@
 # ----------------------------------------------------------------------
 
 cmake_minimum_required(VERSION 2.6)
-set(PROJECT_NAME APPNAME)
+set(PROJECT_NAME c-template)
 project(${PROJECT_NAME})
 enable_testing()
 
@@ -32,10 +32,6 @@ string(REGEX REPLACE "-dev.*" "-dev" BASE_VERSION "${VERSION}")
 # Check for prerequisite libraries
 
 find_package(PkgConfig)
-
-pkg_check_modules(CORK REQUIRED libcork)
-include_directories(${CORK_INCLUDE_DIRS})
-link_directories(${CORK_LIBRARY_DIRS})
 
 #-----------------------------------------------------------------------
 # Set some options

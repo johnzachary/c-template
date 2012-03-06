@@ -5,9 +5,9 @@ import sys, os
 extensions = []
 source_suffix = '.rst'
 master_doc = 'index'
-project_name = u'APPNAME'
-project_slug = u'appname'
-company = u'COMPANY'
+project_name = u'c-template'
+project_slug = u'c-template'
+company = u'RedJack, LLC'
 copyright_years = u'2012'
 
 default_role = 'c:func'
