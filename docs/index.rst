@@ -26,6 +26,9 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   preliminaries
+   new-project
+
 
 
 Indices and tables
