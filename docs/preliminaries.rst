@@ -21,14 +21,18 @@ Source code management
 ~~~~~~~~~~~~~~~~~~~~~~
 
 We assume that you're going to use `git`_ as your source code management
-software, and `git-flow`_ as your branch management strategy.  If you're
-on a Mac, both of these are available in `Homebrew`_::
+software, and `git-flow`_ as your branch management strategy.  We use
+the `hub`_ tool to simplify our interactions with our GitHub
+repositories.  If you're on a Mac, both of these are available in
+`Homebrew`_::
 
     $ brew install git
     $ brew install git-flow
+    $ brew install hub
 
 .. _git: http://git-scm.com/
 .. _git-flow: http://nvie.com/posts/a-successful-git-branching-model/
+.. _hub: http://defunkt.io/hub/
 .. _Homebrew: http://mxcl.github.com/homebrew/
 
 Build system

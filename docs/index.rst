@@ -29,6 +29,7 @@ Contents
    preliminaries
    organization
    new-project
+   git-cheatsheet
 
 
 
