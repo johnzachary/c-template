@@ -1,6 +1,6 @@
 .. _git-cheatsheet:
 
-Git Cheat Sheet
+Git cheat sheet
 ===============
 
 This section provides a cheat sheet of `git`_ commands for common functions
@@ -37,6 +37,8 @@ organization](https://github.com/redjack/).  In your local filesystem,
 the upstream repository will be called ``origin``, and your fork will
 have the same name as your GitHub username.  (You can find the upstream
 URL by loading the upstream repository in your web browser.)
+
+::
 
     $ git clone <upstream URL>
     $ git checkout master
